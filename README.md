@@ -1,3 +1,63 @@
+Application - Users rent movies as video renting store
+
+In this application is included next:
+
+- Auth & Middleware for 'web' routes
+- Controllers
+- views are created with blade.php
+- ALL CRUD OPERATIONS
+
+Two user roles are available on the system: admin & guest. 
+The admin user is seeded to the DB and is unique.
+
+- The guest users can register by populating the form with their: first name, last name, email, 
+age, password, password confirmation.
+
+- The admin is the only user that can input, edit and delete movies. Protect those routes with a 
+middleware.
+
+- For the movies we know their title, genre & cost
+
+
+
+After the guest user logs into the system a table listing all of the movies is shown.
+The table has the following columns: 
+● title
+● genre
+● cost in $
+● availability status - if someone rented the movie the column value is Not available, 
+otherwise a Rent option is shown
+The user can rent a movie if it is not rented by someone else
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
